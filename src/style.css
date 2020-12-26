@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px #ff7e67;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 5px;
+}
+
+#intro {
+  background-color: #03060d;
+  margin: 0;
+}
+
+#title {
+  color: #fff;
+}
+
+#img-div small {
+  color: #fff;
+}
+
+#image {
+  width: 400px;
+  display: block;
+  margin: -66px auto;
+}
+
+#img-caption {
+  display: block;
+  margin: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
