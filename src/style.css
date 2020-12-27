@@ -101,3 +101,12 @@ h1 {
 #bio h2 {
   margin-bottom: 20px;
 }
+
+#bio-link {
+  color: #fbc2eb;
+  text-decoration: none;
+  font-style: italic;
+}
+#bio-link:hover {
+  text-decoration: underline;
+}
