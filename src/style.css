@@ -1,13 +1,30 @@
 body {
+  width: 100%;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  color: #03060d;
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 h1 {
-  margin: 0;
-  text-align: center;
   padding-top: 15px;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 40px;
   text-shadow: 5px 5px 5px #ff7e67;
@@ -15,24 +32,50 @@ h1 {
 
 .subtitle {
   text-align: center;
-  margin: 5px;
+  margin: 5px 0 10px;
+}
+
+.quality-card {
+  background-color: #a2d5f2;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-img-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.card-img-caption {
+  font-size: 12px;
+}
+
+.card-text {
+  margin-top: 15px;
+  text-align: justify;
 }
 
 #intro {
   background-color: #03060d;
   margin: 0;
-}
-
-#title {
-  color: #fff;
-}
-
-#img-div small {
-  color: #fff;
+  color: #fafafa;
 }
 
 #image {
-  width: 400px;
+  width: 100%;
   display: block;
   margin: -66px auto;
 }
