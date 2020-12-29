@@ -43,7 +43,7 @@ h1 {
   margin: 5px 0 10px;
 }
 
-.quality-card {
+.card {
   background-image: linear-gradient(to bottom, #fbc2eb 0%, #a6c1ee 100%);
   margin: 20px;
   padding: 15px;
@@ -52,6 +52,7 @@ h1 {
 
 .card-title {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .card-img-container {
@@ -76,6 +77,15 @@ h1 {
   text-align: justify;
 }
 
+.card-link {
+  color: #03060d;
+  text-decoration: none;
+  font-style: italic;
+}
+.card-link:hover {
+  text-decoration: underline;
+}
+
 #intro {
   margin: 0;
 }
@@ -96,12 +106,16 @@ h1 {
 #bio {
   padding: 25px 20px 15px;
   line-height: 25px;
+  margin-bottom: 15px;
 }
-
 #bio h2 {
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 3px 2px 2px #c37376;
 }
-
 #bio-link {
   color: #fbc2eb;
   text-decoration: none;
