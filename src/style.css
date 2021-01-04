@@ -171,24 +171,56 @@ footer {
     font-size: 50px;
   }
 
+  #intro {
+    max-height: 610px;
+  }
+
   #intro-container {
-    max-width: 80%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
 
   #title {
     margin: 20px;
-    flex: 3 1 auto;
+    max-width: 400px;
   }
 
   #img-div {
+    max-width: 450px;
     flex: 1 1 auto;
+  }
+
+  #img-caption {
+    margin: 10px;
+    padding-bottom: 10px;
+  }
+
+  .light-title {
+    margin: 30px 0 10px;
   }
 
   .cards-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    min-height: 400px;
+    width: 300px;
+    max-width: 500px;
+    flex: 1 1 auto;
+  }
+
+  .card-img {
+    max-width: 300px;
+  }
+
+  .album {
+    width: 400px;
+    height: 600px;
+    flex: 2 1 auto;
   }
 
   .dark-container {
@@ -214,5 +246,9 @@ footer {
 
   .moment-image {
     width: 80%;
+  }
+
+  #moments-section-title {
+    margin: 15px;
   }
 }
